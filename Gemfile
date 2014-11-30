@@ -46,8 +46,9 @@ group :doc do
 end
 
 gem 'nokogiri'
-gem "geocoder"
-gem "rails_autolink"
+gem 'geocoder'
+gem 'rails_autolink'
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

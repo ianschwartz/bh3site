@@ -1,5 +1,6 @@
 Bh3site::Application.routes.draw do
 
+  devise_for :users
 # static / welcome routes
   root "static#welcome"
   get "/hash/:id", to: "static#welcome"
