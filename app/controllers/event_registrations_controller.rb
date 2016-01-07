@@ -7,7 +7,7 @@ class EventRegistrationsController < ApplicationController
   def create
     rego = event.event_registrations.build
     if rego.update_attributes(rego_params[:event_registration])
-      flash[:notice] = "You're registered for BH3 Marathon 2016!"
+      flash[:notice] = "You're registered for #{event.name}!"
     else
       flash[:notice] = "Sorry, something went wrong."
     end
