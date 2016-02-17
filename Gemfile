@@ -65,6 +65,8 @@ gem "figaro"
 gem "activeadmin", '~> 1.0.0.pre2'
 gem "devise"
 gem 'bootstrap-sass', '~> 3.3.6'
+gem "font-awesome-rails"
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
